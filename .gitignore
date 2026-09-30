@@ -1,0 +1,7 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+saida/
+sugestao_compras.csv
