@@ -41,7 +41,7 @@ public class Resumo {
                 sb.append(String.format("%-8s %-30.30s %3s %8d %7d %7d %13s%s%n",
                         s.produto().sku(), s.produto().nome(), s.classe(), s.produto().estoqueAtual(),
                         s.pontoPedido(), s.comprar(), Formatos.moeda(s.valorCompra()),
-                        s.situacao() == Situacao.RUPTURA ? "  ← em falta!" : ""));
+                        s.situacao() == Situacao.RUPTURA ? "  (em falta)" : ""));
             }
         }
 

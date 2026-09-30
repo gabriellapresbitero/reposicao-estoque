@@ -38,7 +38,7 @@ public class RelatoriosTest {
         String texto = new Resumo().gerar(List.of(FALTA, PARADO), LocalDate.of(2025, 9, 30));
         assertTrue(texto, texto.contains("análise até 30/09/2025"));
         assertTrue(texto, texto.contains("Investimento sugerido em compras: R$ 5.692,40"));
-        assertTrue(texto, texto.contains("em falta!"));
+        assertTrue(texto, texto.contains("(em falta)"));
         assertTrue(texto, texto.contains("não vendeu no período"));
     }
 }

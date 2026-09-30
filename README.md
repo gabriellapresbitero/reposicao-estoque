@@ -84,7 +84,7 @@ Capital parado (excesso + sem giro): R$ 1.194,20
 LISTA DE COMPRAS (mais urgente primeiro)
 ------------------------------------------------------------------------------
 SKU      Produto                        ABC  Estoque  P.Ped. Comprar         Valor
-FEI1     Feijão carioca 1kg               A        0     107     760   R$ 5.692,40  ← em falta!
+FEI1     Feijão carioca 1kg               A        0     107     760   R$ 5.692,40  (em falta)
 ARR5     Arroz tipo 1 5kg                 A       60     101     520  R$ 12.948,00
 CAF5     Café torrado 500g                A       30      89     372   R$ 6.249,60
 BIS4     Biscoito cream cracker 400g      B       35      54     260   R$ 1.375,40
